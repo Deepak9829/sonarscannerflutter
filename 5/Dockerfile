@@ -15,6 +15,7 @@ ENV FLUTTER_CHANNEL="stable"
 ENV FLUTTER_VERSION="2.2.1"
 ENV FLUTTER_URL="https://storage.googleapis.com/flutter_infra/releases/$FLUTTER_CHANNEL/linux/flutter_linux_$FLUTTER_VERSION-$FLUTTER_CHANNEL.tar.xz"
 ENV FLUTTER_HOME="/home/$USER/flutter"
+ENV FLUTTER_SDK_PATH=$FLUTTER_HOME/bin/cache/dart-sdk
 ENV FLUTTER_WEB_PORT="8090"
 ENV FLUTTER_DEBUG_PORT="42000"
 ENV FLUTTER_EMULATOR_NAME="flutter_emulator"
